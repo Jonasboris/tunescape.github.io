@@ -1,0 +1,37 @@
+<html>
+    <body>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+
+<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/Loginpage.css" />
+
+<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+<div class="testbox">
+	
+  <h1>LOGIN</h1>
+	
+  <form method="post" action="ArtistLogin.php" >
+   <hr>
+    <div class="accounttype">
+      <input type="radio" value="artist" id="radioOne" name="account" checked/>
+      <label for="radioOne" class="radio" chec> Creators</label>
+      <input type="radio" value="fan" id="radioTwo" name="account" />
+      <label for="radioTwo" class="radio">Listeners</label>
+    </div>
+  <hr>
+	  <label id="icon" for="name"><i class="icon-user"></i></label>
+	  <input type="text" name="username" id="name" placeholder="Username" required/>
+	  
+	<label id="icon" for="name"><i class="icon-shield"></i></label> 
+  <input type="password" name="password" id="name" placeholder="Password" required/>
+	  
+   <p><a href="#">Forgot password</a>.</p>
+   <!--<a href="#" class="button">Register<a>--> 
+	  <button type="submit" name="submit">Submit</button>
+  </form>
+</div>
+    </body>
+</html>
